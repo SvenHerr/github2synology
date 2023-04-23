@@ -12,7 +12,7 @@ BACKUP_PATH="/volume1/serverBackups/github/backup"
 COUNTER=100
 TOTALCOUNTER=0
 PAGE=1
-GIT="c//volume1/@appstore/git/bin/git"
+GIT="/volume1/@appstore/Git/bin/git"
 fetch_fromUrl() {
 	COUNTER=0
     API_URL="https://api.github.com/user/repos?type=all&per_page=100&page=${PAGE}"
